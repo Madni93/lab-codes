@@ -13,9 +13,11 @@ public class Account {
 
     void deposit(int amount){
         balance = balance + amount;
+        System.out.println("Updated balance: "+ balance);
     }
     void withdraw(int amount){
         balance = balance - amount;
+        System.out.println("Updated balance: "+ balance);
     }
 
     static double calculateSimpleInterest(double amt,double rate,int time){

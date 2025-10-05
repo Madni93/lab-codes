@@ -19,6 +19,7 @@ public class Main {
 
         a.deposit(amount);
 
+
         System.out.print("Enter amount you want to withdraw: ");
         int withdrawAmt = sc.nextInt();
 
