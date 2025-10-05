@@ -1,2 +1,2 @@
 # lab-codes
-Codes of lab including till week 8
+Java files of lab
