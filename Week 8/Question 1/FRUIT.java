@@ -10,6 +10,8 @@ public class FRUIT {
     }
 
     public void setDetails(String color1, String taste1, double price1) {
-
+        color = color1;
+        taste = taste1;
+        price = price1;
     }
 }
