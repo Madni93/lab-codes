@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class w7q1 {
 
-    public static void bubbleSort(int arr[]){
+    public static void bubbleSort(int[] arr){
         int i,j,temp;
         int n = arr.length;
         for(i=0;i<n-1;i++){
@@ -15,7 +15,7 @@ public class w7q1 {
         }
     }
 
-    public static void binarySearch(int arr[],int x){
+    public static void binarySearch(int[] arr, int x){
         int n = arr.length;
         int low=0,high=n-1;
         int mid = (low+high)/2;

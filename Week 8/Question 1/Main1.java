@@ -2,33 +2,34 @@ import java.util.Scanner;
 public class Main1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        FRUIT f1 = new FRUIT();
         System.out.print("Enter color of fruit 1: ");
-        f1.color = sc.nextLine();
+        String color1 = sc.nextLine();
         System.out.print("Enter taste of fruit 1: ");
-        f1.taste = sc.nextLine();
+        String taste1 = sc.nextLine();
         System.out.print("Enter price of fruit 1: ");
-        f1.price = sc.nextDouble();
+        double price1 = sc.nextDouble();
+        FRUIT f1 = new FRUIT(color1,taste1,price1);
         sc.nextLine();
         f1.display();
 
-        FRUIT f2 = new FRUIT();
         System.out.print("\nEnter color of fruit 2: ");
-        f2.color = sc.nextLine();
+        String color2 = sc.nextLine();
         System.out.print("Enter taste of fruit 2: ");
-        f2.taste = sc.nextLine();
+        String taste2 = sc.nextLine();
         System.out.print("Enter price of fruit 2: ");
-        f2.price = sc.nextDouble();
+        double price2 = sc.nextDouble();
+        FRUIT f2 = new FRUIT(color2,taste2,price2);
         sc.nextLine();
         f2.display();
         
-        FRUIT f3 = new FRUIT();
+
         System.out.print("\nEnter color of fruit 3: ");
-        f3.color = sc.nextLine();
+        String color3 = sc.nextLine();
         System.out.print("Enter taste of fruit 3: ");
-        f3.taste = sc.nextLine();
+        String taste3 = sc.nextLine();
         System.out.print("Enter price of fruit 3: ");
-        f3.price = sc.nextDouble();
+        double price3 = sc.nextDouble();
+        FRUIT f3 = new FRUIT(color3,taste3,price3);
         sc.nextLine();
         f3.display();
     }   

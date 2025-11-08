@@ -13,20 +13,6 @@ public class w7q7 {
             return gcdr(divisor,rem);
         }
     }
-    //logic below is a different approach tho not effective as euclidean method
-
-    // public static void gcd(int a,int b){
-    //     int min = Math.min(a,b);
-    //     int gcd=1;
-    //     for(int i = min;i>=1;i--){
-    //         if(a%i==0 && b%i==0){
-    //             gcd = i;
-    //             break;
-    //         }
-    //     }
-    //     System.out.print("GCD is: "+gcd);
-    // } 
-    
     public static void gcd(int dividend,int divisor){
         int rem = dividend%divisor;
 

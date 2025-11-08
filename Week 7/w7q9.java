@@ -8,7 +8,7 @@ public class w7q9 {
         arr[j] = temp;
     }
 
-    static int Pi(int arr[],int low,int high){
+    static int Pi(int[] arr, int low, int high){
        int pivot = low;
        int i=low;
        int j=high;
@@ -27,7 +27,7 @@ public class w7q9 {
        return j;
     }
 
-    static void quicksort(int arr[],int low,int high){
+    static void quicksort(int[] arr,int low,int high){
         if(low<high){
             int pi = Pi(arr, low, high);
             quicksort(arr, low, pi-1);
