@@ -19,7 +19,4 @@ public class Student {
         System.out.println("Roll no: "+rollNo);
         System.out.println("Marks: "+marks);
         System.out.println("School name: "+schoolName);
-    }
-
-
-}
+    }}

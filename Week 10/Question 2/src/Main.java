@@ -1,6 +1,6 @@
 public class Main {
     static void main() {
-        Edible e = new Edible();
+        // Edible e = new Edible();
         Edible.Fruit.fruitDetails();
         Edible.Fruit f = new Edible.Fruit();
         f.fruitPackaging();
